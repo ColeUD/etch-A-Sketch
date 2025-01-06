@@ -41,7 +41,7 @@ function createGrid(size) {
   const squareSize = 960 / size;
 
   // Create 'size x size' squares
-  for (let i = 0; i < size * size; i++) {
+  for (let i = 1; i < size * size; i++) {
     const square = document.createElement('div');
     square.classList.add('grid-square');
 
